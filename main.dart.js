@@ -70785,7 +70785,7 @@ A.Oq.prototype={}
 A.pm.prototype={
 K(a){var s=null,r=this.c
 r=r==null?s:"GoException: "+r.a
-return A.xj(!0,A.mh(A.E1(A.b([B.S6,B.wN,A.jG(r==null?"page not found":r,s,s,s,s),B.wN,new A.z1(new A.Wb(a),B.S4,s)],t.E),B.fa,B.cx),s,s),B.aw,!0)}}
+return A.xj(!0,A.mh(A.E1(A.b([B.S4,B.wN,A.jG(r==null?"page not found":r,s,s,s,s),B.wN,new A.z1(new A.Wb(a),B.S2,s)],t.E),B.fa,B.cx),s,s),B.aw,!0)}}
 A.Wb.prototype={
 $0(){return A.XG(this.a).rj("/",null)},
 $S:0}
@@ -71865,13 +71865,13 @@ K(a){var s=null,r=A.agX(B.Q,s,s,B.cy),q=A.agR(s,B.qW,s,s,B.j,s,s,s,s,s,s,s,s,s,s
 p=A.o8(q,s,r,A.IW(s,B.cS,s,s,s,s,s,B.cS,s,s,s,s,s,B.cS,s),!0,p)
 r=A.agX(B.V,s,s,B.qX)
 r=A.o8(A.agR(s,new A.e(4289920857),s,s,B.o,s,s,s,s,s,s,s,s,s,s),s,r,A.IW(s,B.cS,s,s,s,s,s,B.cS,s,s,s,s,s,B.cS,s),!0,s)
-return new A.u_(new A.rq(new A.a6y(),s,s,A.aCR(),A.aBQ(),t.jv),s,s,new A.pR(A.aDb(),"Testing Sample",p,r,B.xc,s),s,t.Zv)}}
+return new A.u_(new A.rq(new A.a6y(),s,s,A.aCR(),A.aBQ(),t.jv),s,s,new A.pR(A.aDb(),"My Favorite Colors",p,r,B.xc,s),s,t.Zv)}}
 A.a6y.prototype={
 $1(a){return new A.fG(A.b([],t.t),$.ae())},
 $S:474}
 A.fG.prototype={}
 A.po.prototype={
-K(a){return A.ai3(A.agQ(null,B.S5),new A.uh(new A.Wm(),null,null,t.K_))}}
+K(a){return A.ai3(A.agQ(null,B.S3),new A.uh(new A.Wm(),null,null,t.K_))}}
 A.Wm.prototype={
 $3(a,b,c){var s=b.a.length
 return s!==0?A.am2(null,null,new A.Wl(b),s,B.l4):B.zj},
@@ -71892,7 +71892,7 @@ s.f.Ey(B.N_)},
 $S:0}
 A.py.prototype={
 K(a){var s=null
-return A.ai3(A.agQ(A.b([A.Fw(s,B.lw,s,s,new A.XZ(a),s,"Favorites")],t.E),B.S7),A.am2(20,A.HT(),new A.Y_(),100,B.l4))}}
+return A.ai3(A.agQ(A.b([A.Fw(s,B.lw,s,s,new A.XZ(a),s,"Favoritos")],t.E),B.S6),A.am2(20,A.HT(),new A.Y_(),100,B.l4))}}
 A.XZ.prototype={
 $0(){A.XG(this.a).rj("/favorites_page",null)},
 $S:0}
@@ -74849,8 +74849,8 @@ B.AC=new A.e(4284800279)
 B.I6=new A.bk([100,B.Bw,200,B.Bi,400,B.AJ,700,B.AC],t.o)
 B.qV=new A.G6(B.I6,4289920857)
 B.Rt=new A.k(!0,B.qV,null,null,null,null,20,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.S3=new A.eS("No favorites added yet.",null,B.Rt,null,null,null,null)
-B.zj=new A.km(B.a0,null,null,B.S3,null)
+B.S7=new A.eS("No hay colores favoritos agregados.",null,B.Rt,null,null,null,null)
+B.zj=new A.km(B.a0,null,null,B.S7,null)
 B.zk=new A.u0(null,null,null,null,null,null,null,null,null)
 B.zl=new A.u2(null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.kr=new A.d4(0,B.p)
@@ -76847,8 +76847,8 @@ B.MY=new A.ih(3,"hide")
 B.Vh=new A.ih(4,"remove")
 B.wP=new A.ih(5,"timeout")
 B.MZ=new A.qK(null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.S2=new A.eS("Removed from favorites.",null,null,null,null,null,null)
-B.N_=new A.o3(B.S2,null,null,null,null,null,null,null,null,null,null,null,null,B.dn,null,null,null,B.a1,null)
+B.S5=new A.eS("Eliminar Colores Favoritos.",null,null,null,null,null,null)
+B.N_=new A.o3(B.S5,null,null,null,null,null,null,null,null,null,null,null,null,B.dn,null,null,null,B.a1,null)
 B.wQ=new A.xW(0,"permissive")
 B.N0=new A.xW(1,"normal")
 B.N1=new A.xW(2,"forced")
@@ -77201,11 +77201,11 @@ B.QF=new A.k(!0,B.o,null,"Roboto",B.D,null,null,null,null,null,null,null,null,nu
 B.S0=new A.cZ(B.Rs,B.Oz,B.Py,B.Qu,B.QH,B.NZ,B.P7,B.O2,B.Qd,B.QU,B.PJ,B.QW,B.R6,B.Qv,B.QF)
 B.S1=new A.eS("Back",null,null,null,null,null,null)
 B.Of=new A.k(!0,B.j,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.S4=new A.eS("Go to home page",null,B.Of,null,null,null,null)
-B.S5=new A.eS("Favorites",null,null,null,null,null,null)
-B.S6=new A.eS("Page Not Found",null,B.fR,null,null,null,null)
+B.S2=new A.eS("Go to home page",null,B.Of,null,null,null,null)
+B.S3=new A.eS("Favorites",null,null,null,null,null,null)
+B.S4=new A.eS("Page Not Found",null,B.fR,null,null,null,null)
 B.xa=new A.eS("Home",null,null,null,null,null,null)
-B.S7=new A.eS("Testing Sample",null,null,null,null,null,null)
+B.S6=new A.eS("My favorite Colors",null,null,null,null,null,null)
 B.xc=new A.IY(0,"system")
 B.S8=new A.IY(2,"dark")
 B.Jv=new A.h(0.05,0)
